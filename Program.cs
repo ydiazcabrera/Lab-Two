@@ -8,7 +8,7 @@ namespace Lab_2
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             
             while (true)
