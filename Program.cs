@@ -15,23 +15,23 @@ namespace Lab_2
             {
                 Console.WriteLine("Enter Length:");
                 string lInput = Console.ReadLine();
-                int length = int.Parse(lInput);
+                decimal length = decimal.Parse(lInput);
 
                 Console.WriteLine("Enter Width:");
                 string wInput = Console.ReadLine();
-                int width = int.Parse(wInput);
+                decimal width = decimal.Parse(wInput);
 
                 Console.WriteLine("Enter Height:");
                 string hInput = Console.ReadLine();
-                int height = int.Parse(hInput);
+                decimal height = decimal.Parse(hInput);
 
-                double area = (length * width);
+                decimal area = (length * width);
                 Console.WriteLine("Area:" + area);
 
-                double perimeter = (2 * (length + width));
+                decimal perimeter = (2 * (length + width));
                 Console.WriteLine("Perimeter:" + perimeter);
 
-                double volume = (length * width * height);
+                decimal volume = (length * width * height);
                 Console.WriteLine("Volume :" + volume);
 
                 Console.WriteLine("Do you want to continue? (Y/N)");
@@ -41,8 +41,7 @@ namespace Lab_2
                 break;
                                 
             }
-        
-
+                    
         }
     }
 }
